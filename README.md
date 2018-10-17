@@ -2,7 +2,7 @@
 
 Usage: java –jar WordCount.jar <URL>
   
-This program processes text from a web page. It then prints a list of the top 25 most frequently used words and the number of times they occur in the text.
+This program processes text from a web page. It then prints to the console a list of the top 25 most frequently used words and the number of times they occur in the text.
 
 Several assumptions were made in the design of this program:
 - Word counting should be case insensitive.
