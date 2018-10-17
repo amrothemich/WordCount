@@ -56,7 +56,8 @@ public class WordCount {
 					+ " Usage: java WordCount <URL>");
 		} 
 		
-		// Split text into array using alphanumeric and apostrophe characters
+		// Split text into array using alphabetical (multiple languages) and 
+		// apostrophe characters
 		String[] textArr = text.split("[^\\p{L}'’]+");
 		Tree dictionary = new Tree();
 		for (int i = 0; i < textArr.length; i++) {
